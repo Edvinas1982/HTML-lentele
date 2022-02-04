@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML lentele</title>
+</head>
+
+<body>
+    <!-- UŽDAVINYS #1
+Sukurkite puslapį su lentele:
+1 eilutė: “Pavadinimas” (per du stulpelius), “Aprašymas”, “Svoris (kg)”, “Veiksmas”;
+2 eilutė: tekstas “Vaisiai” per visus stulpelius;
+3 eilutė: tekstas “Obuolys” pirmame stulpelyje, jo paveiksliukas antrame, ilgas 
+aprašymas trečiame, kažkoks svoris (skaičius) ketvirtame ir mygtukas “Pirkti” 
+penktame;
+4 eilutė: tekstas “Apelsinas” pirmame, jo paveiksliukas antrame ir t.t.;
+5 eilutė: tekstas “Daržovės” per visus stulpelius;
+6 eilutė: tekstas “Morka” pirmame, jos paveiksliukas antrame ir t.t.
+pastaba: paveiksliukus imkite tiesiai iš interneto, į aprašymus tekstą galite iš
+wikipedijos nukopijuoti. -->
+
+    <table border="1" align="center" style="text-align: center; margin: auto; width: 66%; table-layout: fixed;">
+        <caption style="padding: 5px;">UŽDAVINYS #1</caption>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Pavadinimas
+                </th>
+                <th>
+                    Aprašymas
+                </th>
+                <th>
+                    Svoris (kg)
+                </th>
+                <th>
+                    Veiksmas
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="5" ><b>Vaisiai</b></td>
+            </tr>
+            <tr>
+                <td>Obuolys</td>
+                <td><img src="img/apple.jpg" alt="apple photo" width="100%"; height="auto"></td>
+                <td>Obuolys tai vienas populiariausių vaisių, augančių mūsų klimato zonoje. Obuolių galima gauti ištisus metus, kadangi jie išsilaiko per žiemą. Tai turbūt ne tik populiariausias, bet ir vienas iš sveikiausių vaisių, kurių rasime beveik kiekviename sode. Obuolys turi daug daugiau naudingų savybių nei anksčiau manė žmonės, jis ne tik ilgina gyvenimą, bet ir saugo nuo vėžinių susirgimų.
+                </td>
+                <td>1</td>
+                <td><button><a href="https://www.barbora.lt/produktai/obuoliai-nuo-55-mm-1-kg">Pirkti</a></button></td>
+            </tr>
+            <tr>
+                <td>Apelsinas</td>
+                <td><img src="img/orange.jpg" alt="orange photo" width="100%"; height="auto"></td>
+                <td>Apelsinas sveria 100 – 150 gramų ir auga ant apelsinmedžių. Vaisiai priskiriami citrusinių vaisių kategorjai kartu su citrinomis, greipfrutais, pomelais ir t.t. Yra daug apelsinų rūšių, tačiau jie skirstomi į 2 pagrindines grupes – saldžius ir karčius. Manoma, kad apelsinas yra hibridas, kilęs iš pomelo ir mandarino. Apelsinmedžiai auginami tropinio ir subtropinio klimato vietovėse, o 1987 metais, tai buvo labiausiai pasaulyje paplitęs vaismedis pasaulyje. Daugiausiai pasaulyje apelsinų užaugina Brazilija ir JAV. Šiuo metu vis dar nežinoma iš kokio laukinio augalo kilo apelsinas, tačiau manoma, kad jų kilmės vieta yra Pietų Kinija, Šiaurės rytų Indija ir galbūt Pietryčių Azija. Pirmiausia Apelsinai buvo pradėti auginti Kinijoje, maždaug prieš 4500 metų. Europą apelsinai pasiekė XI a., kaip buvo kryžiuočių atgabenti į Italiją.
+                </td>
+                <td>1</td>
+                <td><button><a href="https://taurage.barbora.lt/produktai/apelsinai-4-5-d-1-kg">Pirkti</a></button></td>
+            </tr>
+            <tr>
+                <td colspan="5"><b>Daržovės</b></td>
+            </tr>
+            <tr>
+                <td>Morka</td>
+                <td><img src="img/carrot.jpg" alt="carrot photo" width="100%"; height="auto"></td>
+                <td>Morką – šakninė daržovė, plačiai naudojama visame pasaulyje. Dažniausiai oranžinės spalvos, dėl jose sukaupto gausaus kiekio beta karotino (vitamino A). Dažniausiai valgoma šakninė daržovės dalis, tačiau kartais ir viršutinė, žalia morkos dalis. Šviežios morkos yra traškios ir kietos, o termiškai apdorotos – minkštos. Jos pasižymi švelniu skoniu ir aromatu, dažniausiai naudojamos salotoms, sriuboms ir garnyrams arba valgomos šviežios. Manoma, kad morkos kilę iš Irane ir Afganistane augusių laukinių morkų, o dabar populiari valgomoji morka kilus iš Europos ir Pietvakarių Azijos. Šiuo metu daugiausiai morkų pasaulyje užaugina Kinija.
+                </td>
+                <td>1</td>
+                <td><button><a href="https://taurage.barbora.lt/produktai/lietuviskos-plautos-morkos-1-kg">Pirkti</a></button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
